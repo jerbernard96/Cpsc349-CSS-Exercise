@@ -1,0 +1,35 @@
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+
+header {
+  display: flex;
+  order: -1;
+  background-color: #00539F;
+  border: 2px solid black;
+}
+
+footer {
+  display: flex;
+  order: 2;
+  background-color: #00539f;
+  border: 2px solid orange;
+}
+
+
+article{
+  display: flex;
+  border: 2px solid red;
+  background-color: red;
+}
+
+ul {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  border: 1;
+  margin: 1;
+  padding: 1;
+}
